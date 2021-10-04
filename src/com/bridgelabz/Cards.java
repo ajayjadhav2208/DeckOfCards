@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class Cards {
     public ArrayList<String> cardDeck = new ArrayList<>();
 
-    public void deckOfCard() {
+    public void Cards() {
         String[] suits = {"Spades", "Hearts", "Diamonds", "Clubs"};
         String[] ranks = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
         int numOfCards = suits.length * ranks.length;
